@@ -26,7 +26,7 @@ public class TreasureHunt {
 		// The constructor thatuses parameters
 	}
 
-	private void processCommand(String command) throws HeapFullException,
+	public void processCommand(String command) throws HeapFullException,
 			HeapEmptyException {
 		// The allowed commands are: 
 		// SONAR to drop the sonar in hope to detect treasure
